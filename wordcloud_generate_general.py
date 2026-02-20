@@ -5,7 +5,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-df =pd.read_parquet("dataset/combined_filtered.parquet") # Change YOUR_CSV
+df =pd.read_parquet("dataset/combined_filtered2.parquet") # Change YOUR_CSV
 
 # Load the model
 model = KeyBERT('sentence-transformers/stsb-roberta-base')
